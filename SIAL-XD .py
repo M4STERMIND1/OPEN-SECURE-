@@ -1133,8 +1133,6 @@ def dynamic(text):
         sys.stdout.flush();time.sleep(1)
 
 def SIALZADA():
-	#os.system('SIAL-ZADAg-open https://youtube.com/channel/UCEvniQzw5VfxGdpTT4RUf3A')
-	#Credit goes to ADDICTOR-SIAL-ZADA (SIAL-ZADA PATHAAN)
 	print(logo)
 	print('[1] RANDOM PAK CLONING')
 	print('[2] RANDOM BD CLONING')
