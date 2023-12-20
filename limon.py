@@ -2,6 +2,8 @@
 #!usr/lib/python3.11
 #OPEN SOURCE BY JUTT
 print(" Re Open source by MR SIAL")
+print ("Join Facebook Group")
+os.system('xdg-open https://facebook.com/groups/1079392916067208/')
 ##------------------[ INSTALL-MENU ]------------------##
 import uuid
 import os,sys,time
