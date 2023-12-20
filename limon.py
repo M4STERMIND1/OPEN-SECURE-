@@ -3,7 +3,6 @@
 #OPEN SOURCE BY JUTT
 print(" Re Open source by MR SIAL")
 print ("Join Facebook Group")
-os.system('xdg-open https://facebook.com/groups/1079392916067208/')
 ##------------------[ INSTALL-MENU ]------------------##
 import uuid
 import os,sys,time
@@ -213,7 +212,7 @@ def limon1():
         ua = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/791484986;FBBV/444411021;FBDM/{density=2.25,width=720,height=1280};FBLC/it_IT;FBRV/791484986;FBCR/Jazz;FBMF/Motorola;FBBD/Motorola;FBPN/com.facebook.katana;FBDV/'+str(kkkkki)+';FBSV/4.4.4;nullFBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,641=480,height=1041};FB_FW/1;]'
         return ua
 #-----------------------------------------------------#
-os.system('xdg-open https://chat.whatsapp.com/Kyh2gU9DkDPFsJIGekbkug ')
+os.system('xdg-open https://facebook.com/groups/1079392916067208/')
 logo1 = f"""{W}
 \033[1;32m88     88 8b    d8  dP"Yb  88b 88 
 \033[1;31m88     88 88b  d88 dP   Yb 88Yb88 
