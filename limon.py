@@ -226,7 +226,7 @@ logo1 = f"""{W}
  [<>] \033[1;37mVERSION :  \033[1;32m 0.5\033[1;32m \033[1;37m
 \033[1;33m<><><><><><><><><<><><><><><><><><><><><><><>
 \033[1;32m═══════════════════════════════════════════════
- LICENSE  : {MY_KEY}
+
 \033[1;32m═══════════════════════════════════════════════"""
  
 line = f"{Y}<><><><<><><><><><><><><><><><><><><><>"
@@ -240,26 +240,8 @@ def limon2():
         ua = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/433.0.0.31.111;FBBV/444411021;FBDM/{density=2.25,width=720,height=1280};FBLC/en_NP;FBRV/791484986;FBCR/Nepal Telecom;FBMF/Realme;FBBD/Realme;FBPN/com.facebook.katana;FBDV/RMX3663;FBSV/13;nullFBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,641=480,height=1041};FB_FW/1;]'
         return ua
  
-class apvroval:
-    def check():
-        url = "https://github.com/LIMON-HASAN-90/LIMON-HASAN/blob/main/fuck.txt"
-        import mechanize
-        my_awm = mechanize.Browser()
-        try:
-            host = my_awm.open(url)
-            check_key = str(host.read())
-            if MY_KEY in check_key:
-                Main.Awm()
-            else:
-                clear()
-                print(f'{W} THIS TOOL IS PAID.SO,YOU NEED PERMISSION TO USE THIS TOOL')
-                os.system('xdg-open https://wa.me/+8801919182252 ')
-                print(' SEND YOUR KEY TO GET APPROVAL');linex()
-        except Exception as e:
-            print(e)
-            exit()
- 
- 
+
+
 class Main:
     def Awm():
         clear()
